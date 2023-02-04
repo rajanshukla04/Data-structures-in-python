@@ -1,43 +1,4 @@
-"""
-Stack:
-----Linear
-----Mostly Static 
-----One sided 
-----LIFO  Property 
-"""
-#ADT
-'''
-1. create Stack 
---tos<--- -1
--maxsizse <--1
-
----|
-   |
-   |
-
-
-2. Push(e)
-insert data on Stack 
-tos+1
-
-3. isFull(): True if stack is full 
-    .if  tos ==maxsize-1 full or not 
-
-4. POP(). 
-  REMOVe element in LIFO manner 
-  tos =tos -1 
-
-5. isEmpty():
-  if tos==-1  then true 
-  or else false 
-
-6. atPeek():
-  return the elemnet at top 
-
-7. print stack :
-    print in LIFO manner 
-'''
-
+#Stack Emplimention 
 
 class DS1:
     stack=[]
@@ -111,3 +72,45 @@ while True:
         break
     else:
         print("Wrong input")
+         
+    """
+Stack:
+----Linear
+----Mostly Static 
+----One sided 
+----LIFO  Property 
+"""
+#ADT
+'''
+1. create Stack 
+--tos<--- -1
+-maxsizse <--1
+
+---|
+   |
+   |
+
+
+2. Push(e)
+insert data on Stack 
+tos+1
+
+3. isFull(): True if stack is full 
+    .if  tos ==maxsize-1 full or not 
+
+4. POP(). 
+  REMOVe element in LIFO manner 
+  tos =tos -1 
+
+5. isEmpty():
+  if tos==-1  then true 
+  or else false 
+
+6. atPeek():
+  return the elemnet at top 
+
+7. print stack :
+    print in LIFO manner 
+'''
+         
+         
